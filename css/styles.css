@@ -1,0 +1,24 @@
+:root {
+    --bg-color: #000000;
+    --font-color: #ffffff;
+  }
+
+body{
+    font-family: inter;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    background-image: url(../assets/background_pc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+#home{
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    grid-template-rows: 1fr;
+    gap: 0px;
+    height: 80vh;
+    justify-items: center;
+    align-items: center;
+}

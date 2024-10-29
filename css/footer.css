@@ -1,0 +1,30 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 5%;
+    padding-top: 50px;
+    gap: 20%;
+    backdrop-filter: blur(10px);
+    -webkit-mask: -webkit-gradient(
+      linear,
+      left 5%,
+      left 20%,
+      from(rgba(0, 0, 0, 0)),
+      to(rgba(0, 0, 0, 1))
+    );
+}
+footer img{
+    width: 100px;
+}
+footer h3{
+    font-size: 12px;
+}
+footer div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    gap: 20px;
+}

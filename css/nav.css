@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px 5%;
+    padding-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    -webkit-mask: -webkit-gradient(
+      linear,
+      left 85%,
+      left 100%,
+      from(rgba(0, 0, 0, 1)),
+      to(rgba(0, 0, 0, 0))
+    );
+  }
+  nav img {
+    height: 50px;
+  }
+  
+  nav div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  nav .links{
+      gap: 50px;
+  }
+  nav * {
+    text-decoration: none;
+  }
+  
+  nav a {
+    color: white;
+  }
+  
