@@ -10,9 +10,12 @@ body{
     background-image: url(../assets/background_pc.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     margin: 0;
 }
-
+section{
+    padding: 0 5%;
+}
 #home{
     display: grid;
     grid-template-columns: 5fr 4fr;
@@ -21,4 +24,19 @@ body{
     height: 80vh;
     justify-items: center;
     align-items: center;
+}
+#home img{
+    width: 100%;
+}
+#about-us{
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    grid-template-rows: 1fr;
+    gap: 0px;
+    height: 80vh;
+    justify-items: center;
+    align-items: center;
+}
+#about-us img{
+    width: 80%;
 }
