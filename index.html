@@ -6,7 +6,12 @@
     <title>Plexus Club</title>
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/card.css" />
     <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/animation.css" />
+    <link rel="stylesheet" href="/css/mobile.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script src="/js/animation.js"></script>
   </head>
   <body>
     <nav>
@@ -18,63 +23,213 @@
       </a>
       <div class="links">
         <h3>
-          <a to="/clubs">Clubs</a>
+          <a href="/clubs">Clubs</a>
         </h3>
         <h3>
-          <a to="/events">Events</a>
+          <a href="/events">Events</a>
         </h3>
         <h3>
-          <a to="/gallery">Gallery</a>
+          <a href="/gallery">Gallery</a>
         </h3>
       </div>
     </nav>
     <section id="home">
-        <div>
-            <h5>Welcome to Plexus</h5>
-            <h1>United By Nerves</h1>
-            <h4>Plexus is a dynamic initiative aimed at empowering students through a wide range of technical, non-technical, and hackathon events.</h4>
-            <!-- <div>{/* SVGs */}</div> -->
-          </div>
-          <div>
-            <img
-              class="plexusGlass"
-              src="/assets/Plexus Glass.jpg"
-              alt="Plexus Logo"
-              style="mix-blend-mode: lighten;"
-            />
-          </div>
+      <h5>Welcome to Plexus</h5>
+      <h1>United By Nerves</h1>
+      <h4>
+        Plexus is a dynamic initiative aimed at empowering students through a
+        wide range of technical, non-technical, and hackathon events.
+      </h4>
+      <!-- <div>{/* SVGs */}</div> -->
+      <img
+        id="plexusGlass"
+        src="/assets/Plexus Glass.png"
+        alt="Plexus Logo"
+        style="mix-blend-mode: lighten"
+      />
     </section>
     <section id="about-us">
-        <div>
-          <img
-            src="/assets/MRCE.png"
-            alt="MRCE"
-            style="mix-blend-mode: lighten;"
-          />
+      <img src="/assets/MRCE.png" alt="MRCE" style="mix-blend-mode: lighten" />
+      <h1>About Us</h1>
+      <h4>
+        Plexus is a dynamic initiative aimed at empowering students through a
+        wide range of technical, non-technical, and hackathon events.
+      </h4>
+      <!-- <div>{/* SVGs */}</div> -->
+    </section>
+    <section id="clubs">
+      <h1>Clubs</h1>
+      <div>
+        <div class="club-card">
+          <p class="svg-techincal"></p>
+          <h5>Technical Club</h5>
+          <h4>
+            The Technical Club focuses on harnessing innovation and technical
+            expertise. Members of this club will engage in the organization of
+            technical events, brainstorming innovative solutions, and working on
+            cutting-edge projects. The club ensures that all technical aspects
+            of Plexus, including innovative ideas and maintaining technological
+            infrastructure, are executed efficiently. From coding challenges to
+            hardware integration, this club drives the technical backbone of the
+            event.
+          </h4>
         </div>
-        <div>
-          <h1>About Us</h1>
-          <h4>Plexus is a dynamic initiative aimed at empowering students through a wide range of technical, non-technical, and hackathon events.</h4>
-          <!-- <div>{/* SVGs */}</div> -->
+        <div class="club-card">
+          <p class="svg-non-techincal"></p>
+          <h5>Non Technical Club</h5>
+          <h4>
+            The Non-Technical Club takes charge of event decor and ensuring that
+            the atmosphere of Plexus is visually captivating. Members are
+            responsible for handling decorations, setting up stages, and
+            ensuring smooth transitions between various events. This club plays
+            a crucial role in enhancing the aesthetic experience, creating a
+            welcoming and exciting ambiance for all participants.
+          </h4>
         </div>
-  </section>
+        <div class="club-card">
+          <p class="svg-sports"></p>
+          <h5>Sports Club</h5>
+          <h4>
+            The Sports Club is responsible for managing all physical
+            sports-related activities and competitions within Plexus. From
+            organizing team sports to individual challenges, this club ensures
+            that every event is well-coordinated and enjoyable. Their aim is to
+            promote physical fitness, teamwork, and friendly competition among
+            participants, while managing smooth execution of all sports events.
+          </h4>
+        </div>
+        <div class="club-card">
+          <p class="svg-e-sports"></p>
+          <h5>E-Sports Club</h5>
+          <h4>
+            With the rise of competitive gaming, the E-Sports Club manages all
+            gaming-related events at Plexus. This includes organizing gaming
+            tournaments, managing live-streams, and coordinating between
+            participants. The club ensures a seamless gaming experience by
+            providing technical support and maintaining a vibrant, competitive
+            atmosphere.
+          </h4>
+        </div>
+        <div class="club-card">
+          <p class="svg-social-media"></p>
+          <h5>Social Media Club</h5>
+          <h4>
+            The Social Media Club takes the lead in maintaining a strong digital
+            presence for Plexus. Members are responsible for creating engaging
+            content, including photos, videos, and social media posts. They also
+            handle content writing, event coverage, and report writing. By
+            curating the online experience and showcasing key highlights, the
+            club ensures that Plexus reaches a wide audience, both online and
+            offline.
+          </h4>
+        </div>
+        <div class="club-card">
+          <p class="svg-design"></p>
+          <h5>Design Club</h5>
+          <h4>
+            The Design Club is tasked with managing the visual branding of
+            Plexus. Members design invitations, posters, banners, and brochures
+            that capture the spirit of the event. They are also responsible for
+            digital content creation, from crafting stunning Google Forms to
+            producing visually engaging magazines. Additionally, the club
+            ensures that all media displayed, including projectors and
+            presentations, are up to the highest standards.
+          </h4>
+        </div>
+      </div>
+    </section>
+    <section id="club-association">
+      <h1>Club Association</h1>
+      <div class="card">
+        <img src="" alt="" class="card-img" />
+        <div class="card-body">
+          <h5>Sai Harshaadithya</h5>
+          <h3>President</h3>
+          <h4>
+            Our college is a beacon of knowledge, fostering an environment that
+            encourages growth and intellectual curiosity.
+          </h4>
+        </div>
+      </div>
+      <div class="card">
+        <img src="" alt="" class="card-img" />
+        <div class="card-body">
+          <h5>Parthiban</h5>
+          <h3>Vice President</h3>
+          <h4>
+            Our college is a beacon of knowledge, fostering an environment that
+            encourages growth and intellectual curiosity.
+          </h4>
+        </div>
+      </div>
+      <div class="card">
+        <img src="" alt="" class="card-img" />
+        <div class="card-body">
+          <h5>B Akilesh</h5>
+          <h3>Secretary</h3>
+          <h4>
+            Our college is a beacon of knowledge, fostering an environment that
+            encourages growth and intellectual curiosity.
+          </h4>
+        </div>
+      </div>
+    </section>
+    <section id="management">
+      <h1>Our Management</h1>
+      <div class="card">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpDl_xIOg5YU5Gv45Jl6g-zovtTD-Is6gMFw&s"
+          alt=""
+          class="card-img"
+        />
+        <div class="card-body">
+          <h5>SRI. CH. MALLA REDDY</h5>
+          <h3>Founder Chairman</h3>
+          <h4>
+            Our college is a beacon of knowledge, fostering an environment that
+            encourages growth and intellectual curiosity. Together, we strive to
+            nurture a community that values academic excellence, innovation, and
+            inclusivity.
+          </h4>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="https://mrec.ac.in/Images/About/messages/bhadra_reddy.jpg"
+          alt=""
+          class="card-img"
+        />
+        <div class="card-body">
+          <h5>SRI. CH. MAHENDER REDDY</h5>
+          <h3>Secretary</h3>
+          <h4>
+            As Secretary, I am pleased to introduce Plexus Hub, a dedicated
+            platform for nurturing talent and driving innovation.
+          </h4>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="https://scontent.fhyd1-3.fna.fbcdn.net/v/t39.30808-6/422606918_909619047831463_8208840694056530509_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=XsbTolbKfLgQ7kNvgG3awen&_nc_zt=23&_nc_ht=scontent.fhyd1-3.fna&_nc_gid=A7e_MhHIihXtIakPr6KpIUU&oh=00_AYDaZMSmAiod2MMP4Gsnnp6NOpwaZKg1voOI5n6sCCWUHg&oe=6727DDD2"
+          alt=""
+          class="card-img"
+        />
+        <div class="card-body">
+          <h5>DR. CH. BHADRA REDDY</h5>
+          <h3>President</h3>
+          <h4>
+            As President, I am honored to launch Plexus Hub, a forward-thinking
+            initiative aimed at cultivating innovation and excellence.
+          </h4>
+        </div>
+      </div>
+    </section>
+
     <footer>
       <div>
-        <img
-          class="MRGI"
-          src="/assets/MRGI.png"
-          alt="MRGI"
-        />
-        <img
-          class="MRCE"
-          src="/assets/MRCE.png"
-          alt="MRCE"
-        />
-        <img
-          class="Plexus"
-          src="/assets/Plexus.png"
-          alt="Plexus"
-        />
+        <img class="MRGI" src="/assets/MRGI.png" alt="MRGI" />
+        <img class="MRCE" src="/assets/MRCE.png" alt="MRCE" />
+        <img class="Plexus" src="/assets/Plexus.png" alt="Plexus" />
       </div>
       <div>
         <h3>Our Members</h3>
@@ -87,5 +242,6 @@
         <h3>Stories</h3>
       </div>
     </footer>
+    <script src="/js/svg.js"></script>
   </body>
 </html>

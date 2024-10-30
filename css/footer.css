@@ -2,9 +2,9 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 5%;
+    padding: 20px 10%;
     padding-top: 50px;
-    gap: 20%;
+    gap: 10%;
     backdrop-filter: blur(10px);
     -webkit-mask: -webkit-gradient(
       linear,
@@ -19,6 +19,8 @@ footer img{
 }
 footer h3{
     font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
 }
 footer div{
     display: flex;

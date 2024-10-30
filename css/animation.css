@@ -1,0 +1,31 @@
+/* @media (max-width: 768px) { */
+  #home h1 {
+  display: inline-block;
+}
+#home h5 {
+  opacity: 0;
+  filter: blur(4px);
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+#home h1 {
+  opacity: 0;
+  filter: blur(4px);
+  animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+#home img {
+  opacity: 0;
+  filter: blur(4px);
+  animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+#home h4 {
+  opacity: 0;
+  filter: blur(4px);
+  animation: fade-in 0.8s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+/* } */

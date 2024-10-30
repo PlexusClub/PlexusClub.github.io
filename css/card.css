@@ -1,0 +1,130 @@
+.card{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    z-index: 2;
+    background-color: aliceblue;
+  }
+.card-body{
+    padding: 20px 30px;
+    padding-top: 120px;
+    border-radius: 20px;
+    background-color: rgba(217, 217, 217, 0.2);
+    transform: translateY(-100px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    min-width: 350px;
+    min-height: 250px;
+    
+}
+.card-body h4{
+    text-align: justify;
+}
+.card-body h5{
+    font-size: 28px;
+    font-weight: medium;
+    text-transform: uppercase;
+}
+.card-body h3{
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+
+}
+.card-body h4{
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+    .card{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* gap: -20px; */
+    }
+    .card img{
+        width: 140px;
+        height: 140px;
+        border-radius: 70px;
+        transform: translateY(30px);
+        object-fit: cover;
+        z-index: 2;
+    }
+    .card-body{
+        padding: 20px 15px;
+        /* margin-top: 40px; */
+        padding-top: 80px;
+        border-radius: 20px;
+        background-color: rgba(217, 217, 217, 0.2);
+        transform: translateY(-30px);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        min-width: 220px;
+        min-height: 200px;
+        
+    }
+    .card-body h4{
+        text-align: justify;
+    }
+    .card-body h5{
+        font-size: 24px;
+        font-weight: medium;
+        text-transform: uppercase;
+    }
+    .card-body h3{
+        font-size: 18px;
+        font-weight: 200;
+        letter-spacing: 1.5px;
+    
+    }
+    .card-body h4{
+        font-size: 15px;
+        font-weight: 200;
+        letter-spacing: 1px;
+    }
+}
+
+.club-card{
+    width: 25%;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: rgba(217, 217, 217, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    backdrop-filter: blur(10px);
+    min-width: 350px;
+    min-height: 250px;
+}
+
+.club-card h4{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.club-card h5{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
