@@ -1,4 +1,13 @@
+@media (max-width: 1500px) {
+  #club-association, #management {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
+  body{
+    background-size: 450%;
+  }
   nav {
     display: flex;
     flex-direction: column;

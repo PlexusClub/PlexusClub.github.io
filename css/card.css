@@ -151,6 +151,9 @@
     transition: all ease 0.5s;
 }
     
+#club div{
+    transition: move ease 0.5s;
+}
 .card:hover .card-img{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     backdrop-filter: blur(25px);
