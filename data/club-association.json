@@ -1,0 +1,19 @@
+[
+    {
+      "name": "Sai Harshaadithya",
+      "position": "President",
+      "image": "./assets/PFP/harshaadithya.jpg",
+      "description": "Our college is a beacon of knowledge, fostering an environment that encourages growth and intellectual curiosity."
+    },
+    {
+      "name": "Parthiban",
+      "position": "Vice President",
+      "image": "./assets/PFP/parthiban.png",
+      "description": "Our college is a beacon of knowledge, fostering an environment that encourages growth and intellectual curiosity."
+    },
+    {
+      "name": "B Akilesh",
+      "position": "Secretary",
+      "description": "Our college is a beacon of knowledge, fostering an environment that encourages growth and intellectual curiosity."
+    }
+  ]
