@@ -31,7 +31,7 @@ $(document).ready(function () {
       var scrollTop = $(window).scrollTop();
       console.log(scrollTop);
       var imagePosition = scrollTop * 0.3;
-      var opacity = Math.max(1 - scrollTop / 500, 0.5);
+      var opacity = Math.max(1 - scrollTop / 500, 0);
 
       // Apply scale only on mobile devices (width <= 768px)
       if ($(window).width() <= 768) {
@@ -55,12 +55,12 @@ $(document).ready(function () {
         }
       } else {
         // On larger screens, only apply translate and opacity without scaling
-        $("#home h1, #home h5").css({
+        $("#home h1, #home h4, #home h5").css({
           transform: "translateY(" + imagePosition + "px)",
           opacity: opacity,
         });
 
-        if (scrollTop > 300 && scrollTop < 1000) {
+        if (scrollTop > 300 && scrollTop < 600) {
           $("#about-us").css("opacity", 1);
         } else {
           $("#about-us").css("opacity", 0);

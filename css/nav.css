@@ -1,8 +1,8 @@
 nav {
     display: flex;
     background-color: rgba(0, 0, 0, 0);
-    padding: 20px 5%;
-    padding-top: 15px;
+    padding: 10px 5%;
+    padding-top: 10px;
     justify-content: space-between;
     align-items: center;
     backdrop-filter: blur(10px);
@@ -16,7 +16,7 @@ nav {
 
   }
   nav img {
-    height: 50px;
+    height: 30px;
     padding: 0 10px;
   }
   
@@ -34,7 +34,7 @@ nav {
   nav h2{
     font-family: "Kadwa", serif;
     font-weight: bold;
-    font-size: 42px;
+    font-size: 32px;
     letter-spacing: 4px;
     font-style: normal;
     text-transform: uppercase;
@@ -45,6 +45,7 @@ nav {
     letter-spacing: 2px;
   }
   nav a {
+        font-size: 18px;
     color: var(--font-color);
   }
   
