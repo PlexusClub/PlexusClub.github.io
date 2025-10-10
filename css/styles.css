@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kadwa:wght@400;700&display=swap");
+
 :root {
   --bg-color: #0f0f0f;
   --font-color: #f3f3f3;
@@ -14,9 +15,11 @@ body {
   background-attachment: fixed;
   margin: 0;
 }
+
 section {
   padding: 0 5%;
 }
+
 h1,
 h2,
 h3,
@@ -24,6 +27,7 @@ h4,
 h5 {
   margin: 0;
 }
+
 #home {
   display: grid;
   grid-template-columns: 5fr 4fr;
@@ -33,42 +37,55 @@ h5 {
   justify-items: start;
   align-items: center;
 }
+
 #home img {
   width: 100%;
   grid-column: 2/3;
   grid-row: 1/-1;
 }
+
 #home h5 {
   font-size: 32px;
   letter-spacing: 2.5px;
   font-weight: 500;
   grid-row: 1/2;
 }
+
 #home h5,
 #home h1,
 #home h4 {
   padding: 25px 0;
 }
-#home h4{
-grid-row: 3/4;
+
+#home h4 {
+  grid-row: 3/4;
 
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 h1 {
   font-size: 98px;
   font-weight: 800;
   text-transform: uppercase;
   line-height: 100%;
 }
+
 #home h1 {
   font-size: 128px;
   grid-row: 2/3;
 }
+
 h4 {
   font-size: 24px;
   letter-spacing: 2.5px;
   font-weight: 500;
   line-height: 150%;
 }
+
 #about-us {
   display: grid;
   grid-template-columns: 4fr 5fr;
@@ -79,10 +96,12 @@ h4 {
   align-items: center;
   padding: 5vh 0;
 }
+
 #about-us img {
   width: 40%;
 }
-#about-us h1{
+
+#about-us h1 {
   grid-area: 1/1/1/-1;
 }
 
@@ -95,6 +114,7 @@ h4 {
   justify-items: center;
   align-items: start;
 }
+
 #management h1 {
   text-align: center;
   grid-column: 1 / -1;
@@ -110,17 +130,19 @@ h4 {
   justify-items: center;
   align-items: start;
 }
+
 #club-association h1 {
   text-align: center;
   grid-column: 1 / -1;
   padding: 25px 0;
 }
 
-#clubs h1{
+#clubs h1 {
   text-align: center;
   padding: 30px 0;
 }
-#clubs > div{
+
+#clubs>div {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
