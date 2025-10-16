@@ -1,4 +1,5 @@
-[
+{
+  "management":[
   {
     "name": "SRI. CH. MALLA REDDY",
     "position": "Founder Chairman",
@@ -17,4 +18,26 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS86ZGEhxXYmko8_0ql7cicraDU7CcbrpoI_w&s",
     "description": "As President, I am honored to launch Plexus Hub, a forward-thinking initiative aimed at cultivating innovation and excellence."
   }
-]
+],
+"patrons":[
+  {
+    "name": "Dr.M ASHOK",
+    "position": "Patron, Principal",
+    "image": "/assets/PFP/principal.jpg",
+    "description": "Leading the academic vision and strategic growth of the institution."
+  },
+  {
+    "name": "Dr.Anatha Raman G. R",
+    "position": "Patron, HOD",
+    "image": "assets/PFP/HOD AI&ML.jpg",
+    "description": "Providing guidance and support for departmental excellence and student initiatives."
+  },
+  {
+    "name": "Mr. R. Venkatesh",
+    "position": "Patron, Faculty Coordinator",
+    "image": "/assets/PFP/venki.jpg",
+    "description": "Serving as the primary liaison between the club and the academic administration."
+  }
+  ]
+}
+

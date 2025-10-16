@@ -105,7 +105,7 @@ h4 {
   grid-area: 1/1/1/-1;
 }
 
-#management {
+#management, #hierarchy {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
@@ -115,7 +115,7 @@ h4 {
   align-items: start;
 }
 
-#management h1 {
+#management h1, #hierarchy h1 {
   text-align: center;
   grid-column: 1 / -1;
   padding: 25px 0;

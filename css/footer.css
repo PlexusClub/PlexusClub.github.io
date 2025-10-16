@@ -13,6 +13,10 @@ footer{
       from(rgba(0, 0, 0, 0)),
       to(rgba(0, 0, 0, 1))
     );
+    /* Standard mask for broader browser compatibility */
+    mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 1) 20%);
+    -webkit-mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 1) 20%);
+    mask-mode: alpha;
 }
 footer img{
     width: 100px;
