@@ -79,6 +79,10 @@ h1 {
   grid-row: 2/3;
 }
 
+#management{
+  margin-top: 50vh;
+}
+
 h4 {
   font-size: 24px;
   letter-spacing: 2.5px;

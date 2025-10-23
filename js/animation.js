@@ -29,7 +29,7 @@ $(document).ready(function () {
   $(window).on("scroll", function () {
     window.requestAnimationFrame(function () {
       var scrollTop = $(window).scrollTop();
-      console.log(scrollTop);
+      // console.log(scrollTop);
       var imagePosition = scrollTop * 0.3;
       var opacity = Math.max(1 - scrollTop / 500, 0);
 
@@ -119,7 +119,7 @@ $(document).ready(function () {
         // Applies staggered fade-in to the child elements within the observed section
         $(`#${entry.target.id} ${targetClass}`).each(function(index) {
           $(this)
-            .delay(500 * index)
+            .delay(0 * index)
             .fadeIn(1000);
         });
         
