@@ -20,8 +20,8 @@ $(document).ready(function () {
         // Animate each card after appending
         setTimeout(() => {
           // Starting the animation count from the beginning for the first dynamic section
-          $(".card").eq(index).fadeIn(1000); 
-        }, index * 500); // Staggered animation
+          $(".card").eq(index).fadeIn(100); 
+        }, index * 100); // Staggered animation
       });
     });
         $.getJSON("data/management.json", function (data) {
@@ -44,8 +44,8 @@ $(document).ready(function () {
         // Animate each card after appending
         setTimeout(() => {
           // Starting the animation count from the beginning for the first dynamic section
-          $(".card").eq(index).fadeIn(1000); 
-        }, index * 500); // Staggered animation
+          $(".card").eq(index).fadeIn(100); 
+        }, index * 100); // Staggered animation
       });
     });
   
@@ -72,8 +72,8 @@ $(document).ready(function () {
   
         // Animate each card, offset by the cards already present in the DOM
         setTimeout(() => {
-          $(".card").eq(offset + index).fadeIn(1000);
-        }, (offset + index) * 500); // Staggered animation using total index
+          $(".card").eq(offset + index).fadeIn(100);
+        }, (offset + index) * 100); // Staggered animation using total index
       });
     });
   });

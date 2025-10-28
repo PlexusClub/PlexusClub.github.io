@@ -1,5 +1,5 @@
 @media (max-width: 1500px) {
-  #club-association, #management {
+  #club-association, #management, #hierarchy {
       grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -19,6 +19,9 @@
     position: fixed;
     width: 90%;
     z-index: 10;
+  }
+   nav a {
+    font-size: 14px;
   }
   nav .links {
     align-items: center;
@@ -76,6 +79,13 @@
   #home h1,
   #home h4 {
     padding: 0;
+  }
+
+  #management{
+  margin-top: 0vh;
+}
+  #hierarchy{
+    grid-template-columns: repeat(1, 1fr);
   }
 
   #about-us {
