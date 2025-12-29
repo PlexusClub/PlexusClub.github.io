@@ -1,68 +1,102 @@
-[
-  {
-    "name": "N Parthiban",
-    "position": "President",
-    "image": "/assets/PFP/parthiban.jpg",
-    "description": ""
-  },
-  {
-    "name": "Arvind Singh",
-    "position": "Vice President",
-    "image": "/assets/PFP/aravind-singh.jpg",
-    "description": ""
-  },
-  {
-    "name": "Aishi Jain",
-    "position": "Secretary",
-    "image": "/assets/PFP/aishi-jain.jpg",
-    "description": ""
-  },
-  {
-    "name": "R. Dileep Kumar",
-    "position": "Secretary",
-    "image": "/assets/PFP/dileep-kumar.png",
-    "description": ""
-  },
-  {
-    "name": "Jahnavi",
-    "position": "Joint Secretary",
-    "image": "/assets/PFP/jahnavi.png",
-    "description": ""
-  },
-  {
-    "name": "Taaha",
-    "position": "Associate Secretary",
-    "image": "/assets/PFP/taaha.png",
-    "description": ""
-  },
-  {
-    "name": "Druvika",
-    "position": "Member",
-    "image": "/assets/PFP/druvika.png",
-    "description": ""
-  },
-  {
-    "name": "M Vyshnavi",
-    "position": "Member",
-    "image": "/assets/PFP/vyshnavi.webp",
-    "description": ""
-  },
-  {
-    "name": "Lochani",
-    "position": "Member",
-    "image": "/assets/PFP/lochani.jpeg",
-    "description": ""
-  },
-  {
-    "name": "Swasthik",
-    "position": "Member",
-    "image": "/assets/PFP/swasthik.png",
-    "description": ""
-  },
-  {
-    "name": "Vishnu",
-    "position": "Member",
-    "image": "",
-    "description": ""
-  }
-]
+{
+  "members": [
+    {
+      "name": "N Parthiban",
+      "position": "President",
+      "image": "/assets/PFP/parthiban.jpg",
+      "description": ""
+    },
+    {
+      "name": "Arvind Singh",
+      "position": "Vice President",
+      "image": "/assets/PFP/aravind-singh.jpg",
+      "description": ""
+    },
+    {
+      "name": "Aishi Jain",
+      "position": "Secretary",
+      "image": "/assets/PFP/aishi-jain.jpg",
+      "description": ""
+    },
+    {
+      "name": "R. Dileep Kumar",
+      "position": "Secretary",
+      "image": "/assets/PFP/dileep-kumar.png",
+      "description": ""
+    },
+    {
+      "name": "Jahnavi",
+      "position": "Joint Secretary",
+      "image": "/assets/PFP/jahnavi.png",
+      "description": ""
+    },
+    {
+      "name": "Taaha",
+      "position": "Associate Secretary",
+      "image": "/assets/PFP/taaha.png",
+      "description": ""
+    },
+    {
+      "name": "Druvika",
+      "position": "Member",
+      "image": "/assets/PFP/druvika.png",
+      "description": ""
+    },
+    {
+      "name": "M Vyshnavi",
+      "position": "Member",
+      "image": "/assets/PFP/vyshnavi.webp",
+      "description": ""
+    },
+    {
+      "name": "Lochani",
+      "position": "Member",
+      "image": "/assets/PFP/lochani.jpeg",
+      "description": ""
+    },
+    {
+      "name": "Swasthik",
+      "position": "Member",
+      "image": "/assets/PFP/swasthik.png",
+      "description": ""
+    },
+    {
+      "name": "Vishnu",
+      "position": "Member",
+      "image": "",
+      "description": ""
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Benhin",
+      "position": "Former President",
+      "image": "",
+      "description": "(2023-2024)"
+    },
+    {
+      "name": "K Dhanush",
+      "position": "Former Technical Club Head",
+      "image": "https://harshrb2424.github.io/plexus-demo/images/Dhanush.png",
+      "description": "(2023-2024)"
+    },
+    {
+      "name": "D Madhuri",
+      "position": "Former Non-Technical Club Head",
+      "image": "https://harshrb2424.github.io/plexus-demo/images/Madhuri.png",
+      "description": "(2023-2024)"
+    },
+    {
+      "name": "P Vamshi",
+      "position": "Former Member",
+      "image": "https://harshrb2424.github.io/plexus-demo/images/Vamshi.png",
+      "description": "(2023-2024)"
+    },
+    {
+      "name": "BL Bharani",
+      "position": "Former Member",
+      "image": "https://harshrb2424.github.io/plexus-demo/images/Bharani.png",
+      "description": "(2023-2024)"
+    }
+  ]
+}
