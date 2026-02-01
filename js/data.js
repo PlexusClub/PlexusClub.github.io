@@ -49,15 +49,19 @@ $(document).ready(function () {
     });
   });
 
-  $(document).ready(function () {
-    // Fetch Club Association Data
-    $.getJSON("data/club-association.json", function (data) {
+  // Fetch Club Association Data
+  $.getJSON("data/club-association.json", function (data) {
+
+      // Normalize input to support both formats: array or object with members/alumni
+      const members = Array.isArray(data) ? data : (data.members || []);
+      const alumni = Array.isArray(data) ? [] : (data.alumni || []);
 
       // --- Helper Function to generate Card HTML ---
       function createCardHtml(member) {
+        const imgHtml = member.image ? `<img src="${member.image}" alt="${member.name}" class="card-img" />` : "";
         return `
         <div class="card" style="display: none;">
-          <img src="${member.image}" alt="${member.name}" class="card-img" />
+          ${imgHtml}
           <div class="card-body">
             <h5>${member.name}</h5>
             <h3>${member.position}</h3>
@@ -70,41 +74,35 @@ $(document).ready(function () {
       const $clubSection = $("#club-association");
       $clubSection.append("<h1>Club Association</h1>");
 
-      // Calculate initial delay based on existing cards (optional, usually 0 is better for UX)
-      // If you want the animation to start immediately for this section, set startDelay to 0.
+      // Calculate initial delay based on existing cards
       let startOffset = $(".card").length;
 
-      if (data.members) {
-        data.members.forEach((member, index) => {
-          const $card = $(createCardHtml(member)); // Create jQuery object
-          $clubSection.append($card); // Append to DOM
+      members.forEach((member, index) => {
+        const $card = $(createCardHtml(member)); // Create jQuery object
+        $clubSection.append($card); // Append to DOM
 
-          // Animate specific element
-          setTimeout(() => {
-            $card.fadeIn(100);
-          }, (startOffset + index) * 100);
-        });
-      }
+        // Animate specific element
+        setTimeout(() => {
+          $card.fadeIn(100);
+        }, (startOffset + index) * 100);
+      });
 
       // --- Process Alumni Section ---
       const $alumniSection = $("#club-alumni");
       $alumniSection.append("<h1>Previous Members</h1>");
 
       // Recalculate offset including the newly added members above
-      // Note: We add data.members.length to the previous offset
-      let alumniOffset = startOffset + (data.members ? data.members.length : 0);
+      const alumniOffset = startOffset + members.length;
 
-      if (data.alumni) {
-        data.alumni.forEach((member, index) => {
-          const $card = $(createCardHtml(member));
-          $alumniSection.append($card);
+      alumni.forEach((member, index) => {
+        const $card = $(createCardHtml(member));
+        $alumniSection.append($card);
 
-          setTimeout(() => {
-            $card.fadeIn(100);
-          }, (alumniOffset + index) * 100);
-        });
-      }
+        setTimeout(() => {
+          $card.fadeIn(100);
+        }, (alumniOffset + index) * 100);
+      });
+
     });
-  });
 
 });
