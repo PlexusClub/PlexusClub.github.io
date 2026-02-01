@@ -1,5 +1,5 @@
 {
-  "management":[
+  "management": [
   {
     "name": "SRI. CH. MALLA REDDY",
     "position": "Founder Chairman",
@@ -9,14 +9,26 @@
   {
     "name": "SRI. CH. MAHENDER REDDY",
     "position": "Secretary",
-    "image": "https://mrec.ac.in/Images/About/messages/bhadra_reddy.jpg",
-    "description": "As Secretary, I am pleased to introduce Plexus Hub, a dedicated platform for nurturing talent and driving innovation."
+    "image": "https://mrce.in/static%20page/mahendhar_reddy1.jpg",
+    "description": "Mr. Mahender Reddy carries forward the pioneering legacy of his visionary father. A multifaceted personality, he redefines the etiquette of quality education with an indomitable team spirit. He serves as a sustainable source of inspiration, fostering innovative thoughts and worthy practices to prepare potential professionals."
   },
   {
     "name": "DR. CH. BHADRA REDDY",
     "position": "President",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS86ZGEhxXYmko8_0ql7cicraDU7CcbrpoI_w&s",
-    "description": "As President, I am honored to launch Plexus Hub, a forward-thinking initiative aimed at cultivating innovation and excellence."
+    "description": "As President of MRGI and a medical professional, Dr. Reddy is committed to providing quality education in a conducive environment. He focuses on preparing students for evolving industry demands, ensuring they acquire the knowledge, skills, and mindset necessary to thrive in a dynamic and competitive world."
+  },
+  {
+    "name": "SMT. CH. SHALINI REDDY",
+    "position": "Director",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbQXWlX-FteYmaZ4RAdI4WcJxYHTf6lnJPhA&s",
+    "description": "A highly accomplished leader with an MBA, Smt. Shalini Reddy emphasizes academic excellence, critical thinking, and entrepreneurial skills. Her forward-thinking approach and dynamic leadership inspire a culture of innovation, excellence, and holistic development, preparing students for future leadership roles."
+  },
+  {
+    "name": "DR. CH. PREETI REDDY",
+    "position": "Vice-Chairman (MRV)",
+    "image": "https://yt3.googleusercontent.com/wrQul7m1vQwRgkT8IGkMRbPresRBB7kpmwobibF7hsCDYxefWkAF-CU3w7P9wPGkAi8iNuAA4A=s900-c-k-c0x00ffffff-no-rj",
+    "description": "Dr. Preeti Reddy is a dynamic leader dedicated to advancing healthcare and education standards. With a Gold Medal in General Medicine, she drives organizational growth and fosters a culture of high standards. As Vice-Chairman of MRV, she is committed to excellence and innovation in the medical field."
   }
 ],
 "patrons":[

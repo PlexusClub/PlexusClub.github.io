@@ -1,68 +1,71 @@
-[
-  {
-    "name": "N Parthiban",
-    "position": "President",
-    "image": "/assets/PFP/parthiban.jpg",
-    "description": ""
-  },
-  {
-    "name": "Arvind Singh",
-    "position": "Vice President",
-    "image": "/assets/PFP/aravind-singh.jpg",
-    "description": ""
-  },
-  {
-    "name": "Aishi Jain",
-    "position": "Secretary",
-    "image": "/assets/PFP/aishi-jain.jpg",
-    "description": ""
-  },
-  {
-    "name": "R. Dileep Kumar",
-    "position": "Secretary",
-    "image": "/assets/PFP/dileep-kumar.png",
-    "description": ""
-  },
-  {
-    "name": "Jahnavi",
-    "position": "Joint Secretary",
-    "image": "/assets/PFP/jahnavi.png",
-    "description": ""
-  },
-  {
-    "name": "Taaha",
-    "position": "Associate Secretary",
-    "image": "/assets/PFP/taaha.png",
-    "description": ""
-  },
-  {
-    "name": "Druvika",
-    "position": "Member",
-    "image": "/assets/PFP/druvika.png",
-    "description": ""
-  },
-  {
-    "name": "M Vyshnavi",
-    "position": "Member",
-    "image": "/assets/PFP/vyshnavi.webp",
-    "description": ""
-  },
-  {
-    "name": "Lochani",
-    "position": "Member",
-    "image": "/assets/PFP/D Lochani.jpg",
-    "description": ""
-  },
-  {
-    "name": "Swasthik",
-    "position": "Member",
-    "image": "/assets/PFP/swasthik.png",
-    "description": ""
-  },
-  {
-    "name": "Vishnu",
-    "position": "Member",
-    "image": "",
-    "description": ""
-  }
-]
+{
+  "members": [
+    {
+      "name": "N Parthiban",
+      "position": "President",
+      "image": "/assets/PFP/parthiban.jpg",
+      "description": ""
+    },
+    {
+      "name": "Arvind Singh",
+      "position": "Vice President",
+      "image": "/assets/PFP/aravind-singh.jpg",
+      "description": ""
+    },
+    {
+      "name": "Aishi Jain",
+      "position": "Secretary",
+      "image": "/assets/PFP/aishi-jain.jpg",
+      "description": ""
+    },
+    {
+      "name": "R. Dileep Kumar",
+      "position": "Secretary",
+      "image": "/assets/PFP/dileep-kumar.png",
+      "description": ""
+    },
+    {
+      "name": "Jahnavi",
+      "position": "Joint Secretary",
+      "image": "/assets/PFP/jahnavi.png",
+      "description": ""
+    },
+    {
+      "name": "Taaha",
+      "position": "Associate Secretary",
+      "image": "/assets/PFP/taaha.png",
+      "description": ""
+    },
+    {
+      "name": "Druvika",
+      "position": "Member",
+      "image": "/assets/PFP/druvika.png",
+      "description": ""
+    },
+    {
+      "name": "M Vyshnavi",
+      "position": "Member",
+      "image": "/assets/PFP/vyshnavi.webp",
+      "description": ""
+    },
+    {
+      "name": "Lochani",
+      "position": "Member",
+      "image": "/assets/PFP/lochani.jpeg",
+      "description": ""
+    },
+    {
+      "name": "Swasthik",
+      "position": "Member",
+      "image": "/assets/PFP/swasthik.png",
+      "description": ""
+    },
+    {
+      "name": "Vishnu",
+      "position": "Member",
+      "image": "/assets/PFP/venki.jpg",
+      "description": ""
+    }
+  ],
+  "alumni": []
+}

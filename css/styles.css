@@ -125,7 +125,7 @@ h4 {
   padding: 25px 0;
 }
 
-#club-association {
+#club-association, #club-alumni {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
@@ -135,10 +135,14 @@ h4 {
   align-items: start;
 }
 
-#club-association h1 {
+#club-association h1, #club-alumni h1 {
   text-align: center;
   grid-column: 1 / -1;
   padding: 25px 0;
+}
+
+#club-alumni h4 {
+  text-align: center;
 }
 
 #clubs h1 {

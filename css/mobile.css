@@ -1,5 +1,5 @@
 @media (max-width: 1500px) {
-  #club-association, #management, #hierarchy {
+  #club-association, #management, #hierarchy, #club-alumni {
       grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -104,7 +104,7 @@
     display: flex;
     flex-direction: column;
   }
-  #club-association {
+  #club-association, #club-alumni {
     display: flex;
     flex-direction: column;
   }
