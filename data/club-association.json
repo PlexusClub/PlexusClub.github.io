@@ -67,5 +67,37 @@
       "description": ""
     }
   ],
-  "alumni": []
+    "alumni": [
+    {
+      "name": "Benhin",
+      "position": "Former President",
+      "image": "",
+      "description": "(2023-2024)"
+    },
+    {
+      "name": "K Dhanush",
+      "position": "Former Technical Club Head",
+      "image": "https://harshrb2424.github.io/plexus-demo/images/Dhanush.png",
+      "description": "(2023-2024)"
+    },
+    {
+      "name": "D Madhuri",
+      "position": "Former Non-Technical Club Head",
+      "image": "https://harshrb2424.github.io/plexus-demo/images/Madhuri.png",
+      "description": "(2023-2024)"
+    },
+    {
+      "name": "P Vamshi",
+      "position": "Former Member",
+      "image": "https://harshrb2424.github.io/plexus-demo/images/Vamshi.png",
+      "description": "(2023-2024)"
+    },
+    {
+      "name": "BL Bharani",
+      "position": "Former Member",
+      "image": "https://harshrb2424.github.io/plexus-demo/images/Bharani.png",
+      "description": "(2023-2024)"
+    }
+  ]
+  
 }
